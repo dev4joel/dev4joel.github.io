@@ -1,0 +1,73 @@
+<?xml-stylesheet type="text/xsl" href="http://dev4joel.github.io/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://dev4joel.github.io/</loc>
+    <lastmod>2022-03-12T23:05:54+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://dev4joel.github.io/post/how_to_get_a_warp_terminal_invite_code/</loc>
+    <lastmod>2022-03-12T23:05:54+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://dev4joel.github.io/tags/InviteCode/</loc>
+    <lastmod>2022-03-12T23:05:54+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://dev4joel.github.io/post/</loc>
+    <lastmod>2022-03-12T23:05:54+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://dev4joel.github.io/tags/</loc>
+    <lastmod>2022-03-12T23:05:54+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://dev4joel.github.io/tags/Terminal/</loc>
+    <lastmod>2022-03-12T23:05:54+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://dev4joel.github.io/tags/Warp/</loc>
+    <lastmod>2022-03-12T23:05:54+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://dev4joel.github.io/tags/About/</loc>
+    <lastmod>2022-03-12T23:04:46+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://dev4joel.github.io/about/</loc>
+    <lastmod>2022-03-12T23:04:46+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://dev4joel.github.io/categories/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+</urlset>
