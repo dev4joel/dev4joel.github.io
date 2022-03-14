@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://dev4joel.github.io/sitemap.xml
+Sitemap: https://dev4joel.github.io/sitemap.xml
