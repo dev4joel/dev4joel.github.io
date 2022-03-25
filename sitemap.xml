@@ -2,8 +2,64 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://dev4joel.github.io/tags/BugFixs/</loc>
+    <lastmod>2022-03-25T18:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://dev4joel.github.io/</loc>
-    <lastmod>2022-03-12T23:05:54+08:00</lastmod>
+    <lastmod>2022-03-25T18:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dev4joel.github.io/tags/Internet/</loc>
+    <lastmod>2022-03-25T18:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dev4joel.github.io/post/</loc>
+    <lastmod>2022-03-25T18:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dev4joel.github.io/tags/</loc>
+    <lastmod>2022-03-25T18:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dev4joel.github.io/tags/Terminal/</loc>
+    <lastmod>2022-03-25T18:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dev4joel.github.io/tags/Warp/</loc>
+    <lastmod>2022-03-25T18:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dev4joel.github.io/post/WARP_does_not_work_after_submitting_an_invite_code/</loc>
+    <lastmod>2022-03-25T18:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dev4joel.github.io/tags/WARPDOTDEV/</loc>
+    <lastmod>2022-03-25T18:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -17,34 +73,6 @@
   
   <url>
     <loc>https://dev4joel.github.io/tags/InviteCode/</loc>
-    <lastmod>2022-03-12T23:05:54+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://dev4joel.github.io/post/</loc>
-    <lastmod>2022-03-12T23:05:54+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://dev4joel.github.io/tags/</loc>
-    <lastmod>2022-03-12T23:05:54+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://dev4joel.github.io/tags/Terminal/</loc>
-    <lastmod>2022-03-12T23:05:54+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://dev4joel.github.io/tags/Warp/</loc>
     <lastmod>2022-03-12T23:05:54+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

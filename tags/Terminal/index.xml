@@ -6,7 +6,19 @@
     <description>Recent content in Terminal on Embiid&#39;s BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Mar 2022 23:05:54 +0800</lastBuildDate><atom:link href="https://dev4joel.github.io/tags/Terminal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Mar 2022 18:47:14 +0800</lastBuildDate><atom:link href="https://dev4joel.github.io/tags/Terminal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WARP does not work after submitting an invite code</title>
+      <link>https://dev4joel.github.io/post/WARP_does_not_work_after_submitting_an_invite_code/</link>
+      <pubDate>Fri, 25 Mar 2022 18:47:14 +0800</pubDate>
+      
+      <guid>https://dev4joel.github.io/post/WARP_does_not_work_after_submitting_an_invite_code/</guid>
+      <description>&lt;p&gt;After inputting the invite code and login in with Github, does &lt;a href=&#34;https://www.warp.dev/&#34;&gt;WARP&lt;/a&gt; load for a long time but not log in successfully?&lt;/p&gt;
+&lt;p&gt;Not respond on signing-in Github even though It shows a &amp;ldquo;You‘re logged in!&amp;rdquo; message?&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.warp.dev/&#34;&gt;WARP&lt;/a&gt; doesn&amp;rsquo;t follow system proxy?&lt;/p&gt;
+&lt;p&gt;Please follow the article to fix it.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>How to get a Warp terminal invite code</title>
       <link>https://dev4joel.github.io/post/how_to_get_a_warp_terminal_invite_code/</link>
