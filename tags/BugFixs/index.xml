@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>BugFixs on Embiid&#39;s BLOG</title>
-    <link>https://dev4joel.github.io/tags/BugFixs/</link>
+    <link>https://embiid.blog/tags/BugFixs/</link>
     <description>Recent content in BugFixs on Embiid&#39;s BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Mar 2022 18:47:14 +0800</lastBuildDate><atom:link href="https://dev4joel.github.io/tags/BugFixs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Mar 2022 18:47:14 +0800</lastBuildDate><atom:link href="https://embiid.blog/tags/BugFixs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WARP does not work after submitting an invite code</title>
-      <link>https://dev4joel.github.io/post/WARP_does_not_work_after_submitting_an_invite_code/</link>
+      <link>https://embiid.blog/post/WARP_does_not_work_after_submitting_an_invite_code/</link>
       <pubDate>Fri, 25 Mar 2022 18:47:14 +0800</pubDate>
       
-      <guid>https://dev4joel.github.io/post/WARP_does_not_work_after_submitting_an_invite_code/</guid>
+      <guid>https://embiid.blog/post/WARP_does_not_work_after_submitting_an_invite_code/</guid>
       <description>&lt;p&gt;After inputting the invite code and login in with Github, does &lt;a href=&#34;https://www.warp.dev/&#34;&gt;WARP&lt;/a&gt; load for a long time but not log in successfully?&lt;/p&gt;
 &lt;p&gt;Not respond on signing-in Github even though It shows a &amp;ldquo;You‘re logged in!&amp;rdquo; message?&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.warp.dev/&#34;&gt;WARP&lt;/a&gt; doesn&amp;rsquo;t follow system proxy?&lt;/p&gt;
