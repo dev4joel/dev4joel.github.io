@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>WARP does not work after submitting an invite code - Embiid&#39;s BLOG</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Embiid" /><meta name="description" content="After inputting the invite code and login in with Github, does WARP load for a long time but not log in successfully?
+Not respond on signing-in Github even though It shows a &amp;ldquo;You‘re logged in!&amp;rdquo; message?
+WARP doesn&amp;rsquo;t follow system proxy?
+Please follow the article to fix it.
+" /><meta name="keywords" content="Tech”, “Internet, Warp, WarpTerminal" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.94.0 with theme even" />
+
+
+<link rel="canonical" href="https://embiid.blog/post/WARP-does-not-work-after-submitting-an-invite-code/" />
+<link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png">
+<link rel="manifest" href="../../manifest.json">
+<link rel="mask-icon" href="../../safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+<link href="../../sass/main.min.0c49e3db1c78ff644ea8b059c58127d84d890e34007aeab628e3b6f1be3da061.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="WARP does not work after submitting an invite code" />
+<meta property="og:description" content="After inputting the invite code and login in with Github, does WARP load for a long time but not log in successfully?
+Not respond on signing-in Github even though It shows a &ldquo;You‘re logged in!&rdquo; message?
+WARP doesn&rsquo;t follow system proxy?
+Please follow the article to fix it." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://embiid.blog/post/WARP-does-not-work-after-submitting-an-invite-code/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-03-25T18:47:14+08:00" />
+<meta property="article:modified_time" content="2022-03-28T02:59:09+08:00" />
+
+<meta itemprop="name" content="WARP does not work after submitting an invite code">
+<meta itemprop="description" content="After inputting the invite code and login in with Github, does WARP load for a long time but not log in successfully?
+Not respond on signing-in Github even though It shows a &ldquo;You‘re logged in!&rdquo; message?
+WARP doesn&rsquo;t follow system proxy?
+Please follow the article to fix it."><meta itemprop="datePublished" content="2022-03-25T18:47:14+08:00" />
+<meta itemprop="dateModified" content="2022-03-28T02:59:09+08:00" />
+<meta itemprop="wordCount" content="556">
+<meta itemprop="keywords" content="Warp,Terminal,WARPDOTDEV,Internet,BugFixs," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="WARP does not work after submitting an invite code"/>
+<meta name="twitter:description" content="After inputting the invite code and login in with Github, does WARP load for a long time but not log in successfully?
+Not respond on signing-in Github even though It shows a &ldquo;You‘re logged in!&rdquo; message?
+WARP doesn&rsquo;t follow system proxy?
+Please follow the article to fix it."/>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-222789310-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-222789310-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="../../" class="logo">Embiid&#39;s BLOG</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="../../">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="../../post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="../../tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="../../about/">
+        <li class="mobile-menu-item">About</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="../../" class="logo">Embiid&#39;s BLOG</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="../../">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="../../post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="../../tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="../../about/">About</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">WARP does not work after submitting an invite code</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2022-03-25 </span>
+        
+          <span class="more-meta"> 556 words </span>
+          <span class="more-meta"> 3 mins read </span>
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#whats-the-bug">What&rsquo;s the bug</a></li>
+        <li><a href="#ask-for-help">Ask for help</a></li>
+        <li><a href="#what-happens-to-warphttpswwwwarpdev">What happens to <a href="https://www.warp.dev/">WARP</a>?</a></li>
+        <li><a href="#how-to-fix">How to Fix</a>
+          <ul>
+            <li><a href="#step-1-download-clashx-pro-or-others-with-enhanced-mode">Step 1: Download ClashX Pro or others with Enhanced mode</a></li>
+            <li><a href="#step-2-confirm-open-enhanced-mode">Step 2: Confirm open Enhanced Mode</a></li>
+            <li><a href="#heading"></a></li>
+            <li><a href="#step-3-open-the-config-file">Step 3: Open the config file</a></li>
+            <li><a href="#step-4-configure-your-config-file">Step 4: Configure your config file</a></li>
+            <li><a href="#step-5-restart-chashx-pro">Step 5: Restart ChashX Pro</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <p>After inputting the invite code and login in with Github, does <a href="https://www.warp.dev/">WARP</a> load for a long time but not log in successfully?</p>
+<p>Not respond on signing-in Github even though It shows a &ldquo;You‘re logged in!&rdquo; message?</p>
+<p><a href="https://www.warp.dev/">WARP</a> doesn&rsquo;t follow system proxy?</p>
+<p>Please follow the article to fix it.</p>
+<p><img src="https://miro.medium.com/max/1400/0*zqip3WEtwNNKd8RG" alt=""></p>
+<p>At the end of <a href="https://embiid.blog/post/how_to_get_a_warp_terminal_invite_code/">the last article</a>, we talk about the bug that login in with Github but <a href="https://www.warp.dev/">WARP</a> does not work.</p>
+<p>In this article, I will share a method for achieving this.</p>
+<h2 id="whats-the-bug">What&rsquo;s the bug</h2>
+<p>After you submit an invite code, then hit &ldquo;Sign in&rdquo; =&gt; &ldquo;Login with GitHub&rdquo;. And you can see &ldquo;You&rsquo;re logged in!&rdquo; message.</p>
+<p>However, there is nothing changed still waiting for you to log in or signup.</p>
+<h2 id="ask-for-help">Ask for help</h2>
+<p>I have no idea about it. I think we should ask for help?</p>
+<p>There are so many sources of help online.</p>
+<p>Here we go, Bring-in outside help:</p>
+<ul>
+<li>
+<p><a href="https://docs.warp.dev/help/known-issues">WARP Document FAQ </a></p>
+</li>
+<li>
+<p> <a href="https://stackoverflow.com/">Stack Overflow</a></p>
+</li>
+<li>
+<p><a href="https://www.google.com/">Google Search</a></p>
+</li>
+<li>
+<p>Check for related <a href="https://github.com/warpdotdev/Warp/issues">Github issues</a></p>
+</li>
+<li>
+<p><a href="https://discord.gg/warpdotdev">WARP discord channel</a></p>
+</li>
+</ul>
+<p>If you&rsquo;re in luck, It might be descriptive enough to tell you exactly what went wrong or else give you a search query to find the solution on the web somewhere.</p>
+<p>Unfortunately, No luck in there.</p>
+<h2 id="what-happens-to-warphttpswwwwarpdev">What happens to <a href="https://www.warp.dev/">WARP</a>?</h2>
+<p>Let&rsquo;s return to the sign-in page, Type command cmd + shift + C.</p>
+<p>The console of <a href="https://app.warp.dev/logged_in/remote">WARP</a> logged some errors:</p>
+<p><img src="https://dev4joel.github.io/images/warp_bug/console_error.png" alt="chromeconsolepng"></p>
+<p>According to the information, It seems like a network error :</p>
+<p><a href="https://www.warp.dev/">WARP</a> does not work because the <a href="https://www.warp.dev/">WARP</a> doesn&rsquo;t receive the message.</p>
+<p>Therefore, Gather more Information in <a href="https://www.warp.dev/">WARP</a>.</p>
+<p><a href="https://www.warp.dev/">WARP</a> Log everything, so we can analyze the logs.</p>
+<p>SHOW ME THE LOG!</p>
+<p>After looking out the warp log, I immediately noticed it had some network errors:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Failed to flush events from Telemetry queue to Segment: https://api.segment.io/v1/batch: error trying to connect: connect timed out
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Error checking for update error sending request for url (https://storage.googleapis.com/warp-releases/channel_versions.json?r=1234): operation timed out
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Error loading invite from server: error sending request for url (https://securetoken.googleapis.com/v1/token?key=AzIaSsgBy4rew9hAdayJLxJ7mriFRsegUaUadaq): operation timed out
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Initializing Sentry for cocoa app with endpoint https://1234a81da1234f55a93ee4534235f9ec@o563324.ingest.sentry.io/3213213
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>This can&rsquo;t be right! It&rsquo;s should be working for <a href="https://www.warp.dev/">WARP</a>.</p>
+<h2 id="how-to-fix">How to Fix</h2>
+<p>Here’s a quick guide to how we go about <a href="https://www.warp.dev/">WARP</a> bug fixing.</p>
+<p>If you use a rule based proxy for Mac, please follow the quick guide.</p>
+<h3 id="step-1-download-clashx-pro-or-others-with-enhanced-mode">Step 1: Download ClashX Pro or others with Enhanced mode</h3>
+<p>You&rsquo;ll need to make sure you have a rule based proxy for Mac. To do that, let&rsquo;s step through the download.</p>
+<p><strong>Download ClashX Pro With enhanced mode and Native Apple Silicon support at <a href="https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public">AppCenter</a> for free permanently.</strong></p>
+<h3 id="step-2-confirm-open-enhanced-mode">Step 2: Confirm open Enhanced Mode</h3>
+<p>Click Enhanced Mode:</p>
+<p><img src="https://dev4joel.github.io/images/warp_bug/click_Enhanced_Mode.png" alt="clickEnhancedModepng"></p>
+<h3 id="heading"></h3>
+<h3 id="step-3-open-the-config-file">Step 3: Open the config file</h3>
+<p>Open config folder:</p>
+<p><img src="https://dev4joel.github.io/images/warp_bug/open_config_folder.png" alt="openconfigfolderpng"></p>
+<h3 id="step-4-configure-your-config-file">Step 4: Configure your config file</h3>
+<p>Add these rules to your config file.</p>
+<p><img src="https://dev4joel.github.io/images/warp_bug/add_rules_to_file.png" alt="addrulestofilepng"></p>
+<p><strong>NOTE</strong>:  I’m using <a href="https://code.visualstudio.com/">Visual Studio Code</a> as my editor. If you haven’t already tried it out, I’d highly recommend it! It’s lightweight, it’s <strong>FREE</strong>, it’s open source, and it runs everywhere.</p>
+<p>This is all you need:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="c"># &gt; Warp</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span>- <span class="l">DOMAIN,*.googleapis.com,PROXY</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span>- <span class="l">DOMAIN,*.warp.dev,PROXY</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span>- <span class="l">DOMAIN,*.segment.io,PROXY</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span>- <span class="l">DOMAIN,*.sentry.io,PROXY</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>Save and close the config file you&rsquo;ve edited.</p>
+<p>We&rsquo;re done with the changes that need to be made!</p>
+<h3 id="step-5-restart-chashx-pro">Step 5: Restart ChashX Pro</h3>
+<p>Let&rsquo;s restart ClashX Pro.</p>
+<p>That&rsquo;s all there is to it!</p>
+<p>If you are still having issues please <a href="https://discord.gg/warpdotdev">join this WARP discord channel</a> or <a href="https://github.com/warpdotdev/Warp/issues/new/choose">open a new Github issue</a>.</p>
+<blockquote>
+<p>Originally published at <a href="https://embiid.blog">Embiid’BLOG</a>.</p>
+</blockquote>
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">Embiid</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">
+        2022-03-28
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="../../tags/Warp/">Warp</a>
+          <a href="../../tags/Terminal/">Terminal</a>
+          <a href="../../tags/WARPDOTDEV/">WARPDOTDEV</a>
+          <a href="../../tags/Internet/">Internet</a>
+          <a href="../../tags/BugFixs/">BugFixs</a>
+          </div>
+      <nav class="post-nav">
+        
+        <a class="next" href="../../post/How-to-get-a-warp-terminal-invite-code/">
+            <span class="next-text nav-default">How to get a Warp terminal invite code</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        <div id="gitalk-container"></div>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      var gitalk = new Gitalk({
+        id: '2022-03-25 18:47:14 \u002b0800 CST',
+        title: 'WARP does not work after submitting an invite code',
+        clientID: 'c048b2683e599e4c3f7c',
+        clientSecret: '7fbd7eacd3f184fc63b790acc8f64cb94480c17f',
+        repo: 'dev4joel.github.io',
+        owner: 'dev4joel',
+        admin: ['dev4joel'],
+        body: decodeURI(location.href)
+      });
+      gitalk.render('gitalk-container');
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://github.com/gitalk/gitalk">comments powered by gitalk.</a></noscript>
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="https://twitter.com/embiid_blog" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://github.com/dev4joel/" class="iconfont icon-github" title="github"></a>
+  <a href="https://embiid.blog/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2022<span class="heart"><i class="iconfont icon-heart"></i></span><span>Embiid</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="../../js/main.min.64437849d125a2d603b3e71d6de5225d641a32d17168a58106e0b61852079683.js"></script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-222789310-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+</body>
+</html>
