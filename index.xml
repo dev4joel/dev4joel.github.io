@@ -34,10 +34,11 @@
     <item>
       <title>About</title>
       <link>https://embiid.blog/about/</link>
-      <pubDate>Sat, 12 Mar 2022 23:04:46 +0800</pubDate>
+      <pubDate>Sat, 12 Mar 2022 23:04:46 +0000</pubDate>
       
       <guid>https://embiid.blog/about/</guid>
-      <description>Here is nothing.</description>
+      <description>Warp &amp;mdash; The blazingly fast, Rust-based terminal.
+I Love Warp Speed!</description>
     </item>
     
   </channel>
