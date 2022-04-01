@@ -51,15 +51,15 @@ Please follow the article to fix it." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://embiid.blog/post/WARP-does-not-work-after-submitting-an-invite-code/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2022-03-25T18:47:14+00:00" />
-<meta property="article:modified_time" content="2022-03-28T10:55:13+00:00" />
+<meta property="article:modified_time" content="2022-04-01T02:49:28+00:00" />
 
 <meta itemprop="name" content="WARP does not work after submitting an invite code">
 <meta itemprop="description" content="After inputting the invite code and login in with Github, does WARP load for a long time but not log in successfully?
 Not respond on signing-in Github even though It shows a &ldquo;You‘re logged in!&rdquo; message?
 WARP doesn&rsquo;t follow system proxy?
 Please follow the article to fix it."><meta itemprop="datePublished" content="2022-03-25T18:47:14+00:00" />
-<meta itemprop="dateModified" content="2022-03-28T10:55:13+00:00" />
-<meta itemprop="wordCount" content="556">
+<meta itemprop="dateModified" content="2022-04-01T02:49:28+00:00" />
+<meta itemprop="wordCount" content="557">
 <meta itemprop="keywords" content="Warp,Terminal,WARPDOTDEV,Internet,BugFixs," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="WARP does not work after submitting an invite code"/>
 <meta name="twitter:description" content="After inputting the invite code and login in with Github, does WARP load for a long time but not log in successfully?
@@ -159,7 +159,7 @@ if (!doNotTrack) {
       <div class="post-meta">
         <span class="post-time"> 2022-03-25 </span>
         
-          <span class="more-meta"> 556 words </span>
+          <span class="more-meta"> 557 words </span>
           <span class="more-meta"> 3 mins read </span>
         
       </div>
@@ -170,21 +170,19 @@ if (!doNotTrack) {
   <div class="post-toc-content always-active">
     <nav id="TableOfContents">
   <ul>
-    <li>
+    <li><a href="#whats-the-bug">What&rsquo;s the bug?</a>
       <ul>
-        <li><a href="#whats-the-bug">What&rsquo;s the bug</a></li>
         <li><a href="#ask-for-help">Ask for help</a></li>
-        <li><a href="#what-happens-to-warphttpswwwwarpdev">What happens to <a href="https://www.warp.dev/">WARP</a>?</a></li>
-        <li><a href="#how-to-fix">How to Fix</a>
-          <ul>
-            <li><a href="#step-1-download-clashx-pro-or-others-with-enhanced-mode">Step 1: Download ClashX Pro or others with Enhanced mode</a></li>
-            <li><a href="#step-2-confirm-open-enhanced-mode">Step 2: Confirm open Enhanced Mode</a></li>
-            <li><a href="#heading"></a></li>
-            <li><a href="#step-3-open-the-config-file">Step 3: Open the config file</a></li>
-            <li><a href="#step-4-configure-your-config-file">Step 4: Configure your config file</a></li>
-            <li><a href="#step-5-restart-chashx-pro">Step 5: Restart ChashX Pro</a></li>
-          </ul>
-        </li>
+      </ul>
+    </li>
+    <li><a href="#what-happens-to-warp">What happens to WARP?</a></li>
+    <li><a href="#how-to-fix-it">How to Fix it?</a>
+      <ul>
+        <li><a href="#step-1-download-clashx-pro-or-others-with-enhanced-mode">Step 1: Download ClashX Pro or others with Enhanced mode</a></li>
+        <li><a href="#step-2-confirm-open-enhanced-mode">Step 2: Confirm open Enhanced Mode</a></li>
+        <li><a href="#step-3-open-the-config-file">Step 3: Open the config file</a></li>
+        <li><a href="#step-4-configure-your-config-file">Step 4: Configure your config file</a></li>
+        <li><a href="#step-5-restart-chashx-pro">Step 5: Restart ChashX Pro</a></li>
       </ul>
     </li>
   </ul>
@@ -199,7 +197,7 @@ if (!doNotTrack) {
 <p><img src="https://miro.medium.com/max/1400/0*zqip3WEtwNNKd8RG" alt=""></p>
 <p>At the end of <a href="https://embiid.blog/post/How-to-get-a-warp-terminal-invite-code/">the last article</a>, we talk about the bug that login in with Github but <a href="https://www.warp.dev/">WARP</a> does not work.</p>
 <p>In this article, I will share a method for achieving this.</p>
-<h2 id="whats-the-bug">What&rsquo;s the bug</h2>
+<h1 id="whats-the-bug">What&rsquo;s the bug?</h1>
 <p>After you submit an invite code, then hit &ldquo;Sign in&rdquo; =&gt; &ldquo;Login with GitHub&rdquo;. And you can see &ldquo;You&rsquo;re logged in!&rdquo; message.</p>
 <p>However, there is nothing changed still waiting for you to log in or signup.</p>
 <h2 id="ask-for-help">Ask for help</h2>
@@ -225,7 +223,7 @@ if (!doNotTrack) {
 </ul>
 <p>If you&rsquo;re in luck, It might be descriptive enough to tell you exactly what went wrong or else give you a search query to find the solution on the web somewhere.</p>
 <p>Unfortunately, No luck in there.</p>
-<h2 id="what-happens-to-warphttpswwwwarpdev">What happens to <a href="https://www.warp.dev/">WARP</a>?</h2>
+<h1 id="what-happens-to-warp">What happens to WARP?</h1>
 <p>Let&rsquo;s return to the sign-in page, Type command cmd + shift + C.</p>
 <p>The console of <a href="https://app.warp.dev/logged_in/remote">WARP</a> logged some errors:</p>
 <p><img src="https://dev4joel.github.io/images/warp_bug/console_error.png" alt="chromeconsolepng"></p>
@@ -268,20 +266,19 @@ if (!doNotTrack) {
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>This can&rsquo;t be right! It&rsquo;s should be working for <a href="https://www.warp.dev/">WARP</a>.</p>
-<h2 id="how-to-fix">How to Fix</h2>
+<h1 id="how-to-fix-it">How to Fix it?</h1>
 <p>Here’s a quick guide to how we go about <a href="https://www.warp.dev/">WARP</a> bug fixing.</p>
 <p>If you use a rule based proxy for Mac, please follow the quick guide.</p>
-<h3 id="step-1-download-clashx-pro-or-others-with-enhanced-mode">Step 1: Download ClashX Pro or others with Enhanced mode</h3>
+<h2 id="step-1-download-clashx-pro-or-others-with-enhanced-mode">Step 1: Download ClashX Pro or others with Enhanced mode</h2>
 <p>You&rsquo;ll need to make sure you have a rule based proxy for Mac. To do that, let&rsquo;s step through the download.</p>
 <p><strong>Download ClashX Pro With enhanced mode and Native Apple Silicon support at <a href="https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public">AppCenter</a> for free permanently.</strong></p>
-<h3 id="step-2-confirm-open-enhanced-mode">Step 2: Confirm open Enhanced Mode</h3>
+<h2 id="step-2-confirm-open-enhanced-mode">Step 2: Confirm open Enhanced Mode</h2>
 <p>Click Enhanced Mode:</p>
 <p><img src="https://dev4joel.github.io/images/warp_bug/click_Enhanced_Mode.png" alt="clickEnhancedModepng"></p>
-<h3 id="heading"></h3>
-<h3 id="step-3-open-the-config-file">Step 3: Open the config file</h3>
+<h2 id="step-3-open-the-config-file">Step 3: Open the config file</h2>
 <p>Open config folder:</p>
 <p><img src="https://dev4joel.github.io/images/warp_bug/open_config_folder.png" alt="openconfigfolderpng"></p>
-<h3 id="step-4-configure-your-config-file">Step 4: Configure your config file</h3>
+<h2 id="step-4-configure-your-config-file">Step 4: Configure your config file</h2>
 <p>Add these rules to your config file.</p>
 <p><img src="https://dev4joel.github.io/images/warp_bug/add_rules_to_file.png" alt="addrulestofilepng"></p>
 <p><strong>NOTE</strong>:  I’m using <a href="https://code.visualstudio.com/">Visual Studio Code</a> as my editor. If you haven’t already tried it out, I’d highly recommend it! It’s lightweight, it’s <strong>FREE</strong>, it’s open source, and it runs everywhere.</p>
@@ -304,7 +301,7 @@ if (!doNotTrack) {
 </div>
 </div><p>Save and close the config file you&rsquo;ve edited.</p>
 <p>We&rsquo;re done with the changes that need to be made!</p>
-<h3 id="step-5-restart-chashx-pro">Step 5: Restart ChashX Pro</h3>
+<h2 id="step-5-restart-chashx-pro">Step 5: Restart ChashX Pro</h2>
 <p>Let&rsquo;s restart ClashX Pro.</p>
 <p>That&rsquo;s all there is to it!</p>
 <p>If you are still having issues please <a href="https://discord.gg/warpdotdev">join this WARP discord channel</a> or <a href="https://github.com/warpdotdev/Warp/issues/new/choose">open a new Github issue</a>.</p>
@@ -321,7 +318,7 @@ if (!doNotTrack) {
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
     <span class="item-content">
-        2022-03-28
+        2022-04-01
         
     </span>
   </p>
