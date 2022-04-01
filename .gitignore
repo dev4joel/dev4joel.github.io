@@ -5,12 +5,13 @@
 # Fact: you don't want Hugo core files, or your server-specific
 # configuration files etc., in your project's repository. You just don't.
 #
-# Ignore everything in the root except the "content" directory and "static"
+# Ignore everything in the root except the "content" directory and "static" and "pages"
 /*
 !.gitignore
 !content/
 !*.toml
 !static/
+!pages/
 
 #OS
 .DS_Store
