@@ -51,15 +51,15 @@ Please follow the article to fix it." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://embiid.blog/post/WARP-does-not-work-after-submitting-an-invite-code/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2022-03-25T18:47:14+00:00" />
-<meta property="article:modified_time" content="2022-04-02T06:32:33+00:00" />
+<meta property="article:modified_time" content="2022-04-07T06:20:34+00:00" />
 
 <meta itemprop="name" content="WARP does not work after submitting an invite code">
 <meta itemprop="description" content="After inputting the invite code and login in with Github, does WARP load for a long time but not log in successfully?
 Not respond on signing-in Github even though It shows a &ldquo;You‘re logged in!&rdquo; message?
 WARP doesn&rsquo;t follow system proxy?
 Please follow the article to fix it."><meta itemprop="datePublished" content="2022-03-25T18:47:14+00:00" />
-<meta itemprop="dateModified" content="2022-04-02T06:32:33+00:00" />
-<meta itemprop="wordCount" content="592">
+<meta itemprop="dateModified" content="2022-04-07T06:20:34+00:00" />
+<meta itemprop="wordCount" content="698">
 <meta itemprop="keywords" content="Warp,Terminal,WARPDOTDEV,Internet,BugFixs," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="WARP does not work after submitting an invite code"/>
 <meta name="twitter:description" content="After inputting the invite code and login in with Github, does WARP load for a long time but not log in successfully?
@@ -159,8 +159,8 @@ if (!doNotTrack) {
       <div class="post-meta">
         <span class="post-time"> 2022-03-25 </span>
         
-          <span class="more-meta"> 592 words </span>
-          <span class="more-meta"> 3 mins read </span>
+          <span class="more-meta"> 698 words </span>
+          <span class="more-meta"> 4 mins read </span>
         
       </div>
     </header>
@@ -178,11 +178,16 @@ if (!doNotTrack) {
     <li><a href="#what-happens-to-warp">What happens to WARP?</a></li>
     <li><a href="#how-to-fix-it">How to Fix it?</a>
       <ul>
-        <li><a href="#step-1-download-clashx-pro-or-others-with-enhanced-mode">Step 1: Download ClashX Pro or others with <strong>Enhanced Mode</strong></a></li>
-        <li><a href="#step-2-confirm-open-enhanced-mode">Step 2: Confirm open Enhanced Mode</a></li>
-        <li><a href="#step-3-open-the-config-file">Step 3: Open the config file</a></li>
-        <li><a href="#step-4-configure-your-config-file">Step 4: Configure your config file</a></li>
-        <li><a href="#step-5-restart-chashx-pro">Step 5: Restart ChashX Pro</a></li>
+        <li><a href="#method-one-addhttp_proxyandhttps_proxyto-the-rc-file-and-then-run-warp-stable-file">Method One: Add <code>HTTP_PROXY</code> and <code>HTTPS_PROXY</code> to the rc file and then run WARP .stable file</a></li>
+        <li><a href="#method-two-use-clashx-pro-app">Method Two: Use ClashX Pro App</a>
+          <ul>
+            <li><a href="#step-1-download-clashx-pro-or-others-with-enhanced-mode">Step 1: Download ClashX Pro or others with <strong>Enhanced Mode</strong></a></li>
+            <li><a href="#step-2-confirm-open-enhanced-mode">Step 2: Confirm open Enhanced Mode</a></li>
+            <li><a href="#step-3-open-the-config-file">Step 3: Open the config file</a></li>
+            <li><a href="#step-4-configure-your-config-file">Step 4: Configure your config file</a></li>
+            <li><a href="#step-5-restart-chashx-pro">Step 5: Restart ChashX Pro</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
   </ul>
@@ -269,7 +274,37 @@ if (!doNotTrack) {
 <h1 id="how-to-fix-it">How to Fix it?</h1>
 <p>Here’s a quick guide to how we go about <a href="https://www.warp.dev/">WARP</a> bug fixing.</p>
 <p>If you use a rule based proxy for Mac, please follow the quick guide.</p>
-<h2 id="step-1-download-clashx-pro-or-others-with-enhanced-mode">Step 1: Download ClashX Pro or others with <strong>Enhanced Mode</strong></h2>
+<h2 id="method-one-addhttp_proxyandhttps_proxyto-the-rc-file-and-then-run-warp-stable-file">Method One: Add <code>HTTP_PROXY</code> and <code>HTTPS_PROXY</code> to the rc file and then run WARP .stable file</h2>
+<p>Method source: <a href="https://github.com/warpdotdev/Warp/issues/705#issuecomment-1089203127">Warp does not work properly when connected through a proxy · Issue #705 · warpdotdev/Warp · GitHub</a></p>
+<p>First, you should copy the command and config the proxy to your terminal.</p>
+<p>Not sure which proxy HTTP port used that You could change &ldquo;7890&rdquo; to your HTTP port.</p>
+<p>&ldquo;7890&rdquo; means your proxy  HTTP port.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">https_proxy</span><span class="o">=</span>http://127.0.0.1:7890 <span class="nv">http_proxy</span><span class="o">=</span>http://127.0.0.1:7890
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Now, go to <code>/Applications/Warp.app/Contents/MacOS</code> directory and launch WARP via <code>./stable</code> file.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">cd</span> /Applications/Warp.app/Contents/MacOS/stable
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">./stable
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Alright, you did it.</p>
+<p><img src="https://dev4joel.github.io/images/warp_bug/export_proxy.png" alt=""></p>
+<p>I’d say that’s pretty sweet.</p>
+<h2 id="method-two-use-clashx-pro-app">Method Two: Use ClashX Pro App</h2>
+<h3 id="step-1-download-clashx-pro-or-others-with-enhanced-mode">Step 1: Download ClashX Pro or others with <strong>Enhanced Mode</strong></h3>
 <p>You&rsquo;ll need to make sure you have a rule based proxy for Mac with <strong>Enhanced Mode</strong>. To do that, let&rsquo;s step through the download.</p>
 <p><strong>Download ClashX Pro With Enhanced Mode and Native Apple Silicon support at <a href="https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public">AppCenter</a> for free permanently.</strong></p>
 <p>Why we need a rule based proxy with <strong>Enhanced Mode</strong>?</p>
@@ -278,13 +313,13 @@ if (!doNotTrack) {
 <p><a href="https://www.warp.dev/">WARP</a> may not obey the system proxy settings.</p>
 <p>Using <strong>Enhanced Mode</strong> can make all applications handled by your rule-based proxy.</p>
 </blockquote>
-<h2 id="step-2-confirm-open-enhanced-mode">Step 2: Confirm open Enhanced Mode</h2>
+<h3 id="step-2-confirm-open-enhanced-mode">Step 2: Confirm open Enhanced Mode</h3>
 <p>Click Enhanced Mode:</p>
 <p><img src="https://dev4joel.github.io/images/warp_bug/click_Enhanced_Mode.png" alt="clickEnhancedModepng"></p>
-<h2 id="step-3-open-the-config-file">Step 3: Open the config file</h2>
+<h3 id="step-3-open-the-config-file">Step 3: Open the config file</h3>
 <p>Open config folder:</p>
 <p><img src="https://dev4joel.github.io/images/warp_bug/open_config_folder.png" alt="openconfigfolderpng"></p>
-<h2 id="step-4-configure-your-config-file">Step 4: Configure your config file</h2>
+<h3 id="step-4-configure-your-config-file">Step 4: Configure your config file</h3>
 <p>Add these rules to your config file.</p>
 <p><img src="https://dev4joel.github.io/images/warp_bug/add_rules_to_file.png" alt="addrulestofilepng"></p>
 <p><strong>NOTE</strong>:  I’m using <a href="https://code.visualstudio.com/">Visual Studio Code</a> as my editor. If you haven’t already tried it out, I’d highly recommend it! It’s lightweight, it’s <strong>FREE</strong>, it’s open source, and it runs everywhere.</p>
@@ -307,7 +342,7 @@ if (!doNotTrack) {
 </div>
 </div><p>Save and close the config file you&rsquo;ve edited.</p>
 <p>We&rsquo;re done with the changes that need to be made!</p>
-<h2 id="step-5-restart-chashx-pro">Step 5: Restart ChashX Pro</h2>
+<h3 id="step-5-restart-chashx-pro">Step 5: Restart ChashX Pro</h3>
 <p>Let&rsquo;s restart ClashX Pro.</p>
 <p>That&rsquo;s all there is to it!</p>
 <p>If you are still having issues please <a href="https://discord.gg/warpdotdev">join this WARP discord channel</a> or <a href="https://github.com/warpdotdev/Warp/issues/new/choose">open a new Github issue</a>.</p>
@@ -324,7 +359,7 @@ if (!doNotTrack) {
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
     <span class="item-content">
-        2022-04-02
+        2022-04-07
         
     </span>
   </p>
