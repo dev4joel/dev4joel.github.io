@@ -12,6 +12,7 @@
 !*.toml
 !static/
 !pages/
+!images/
 
 #OS
 .DS_Store
