@@ -59,7 +59,7 @@ Not respond on signing-in Github even though It shows a &ldquo;You‘re logged i
 WARP doesn&rsquo;t follow system proxy?
 Please follow the article to fix it."><meta itemprop="datePublished" content="2022-03-25T18:47:14+00:00" />
 <meta itemprop="dateModified" content="2022-04-08T07:24:33+00:00" />
-<meta itemprop="wordCount" content="728">
+<meta itemprop="wordCount" content="752">
 <meta itemprop="keywords" content="Warp,Terminal,WARPDOTDEV,Internet,BugFixs," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="WARP does not work after submitting an invite code"/>
 <meta name="twitter:description" content="After inputting the invite code and login in with Github, does WARP load for a long time but not log in successfully?
@@ -159,7 +159,7 @@ if (!doNotTrack) {
       <div class="post-meta">
         <span class="post-time"> 2022-03-25 </span>
         
-          <span class="more-meta"> 728 words </span>
+          <span class="more-meta"> 752 words </span>
           <span class="more-meta"> 4 mins read </span>
         
       </div>
@@ -284,10 +284,12 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">https_proxy</span><span class="o">=</span>http://127.0.0.1:7890 <span class="nv">http_proxy</span><span class="o">=</span>http://127.0.0.1:7890
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">https_proxy</span><span class="o">=</span>http://127.0.0.1:7890 <span class="nv">http_proxy</span><span class="o">=</span>http://127.0.0.1:7890 <span class="nv">all_proxy</span><span class="o">=</span>socks5://127.0.0.1:7890
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>Now, go to <code>/Applications/Warp.app/Contents/MacOS</code> directory and launch WARP via <code>./stable</code> file.</p>
+</div><p>It&rsquo;s not necessary to add <code>all_proxy=socks5://127.0.0.1:7890</code> to the rc file.
+Why we add it is because some proxy does not work for http_proxy.</p>
+<p>Now, go to <code>/Applications/Warp.app/Contents/MacOS</code> directory and launch WARP via <code>./stable</code> file.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
