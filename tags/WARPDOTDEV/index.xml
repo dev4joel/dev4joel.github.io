@@ -13,7 +13,7 @@
       <pubDate>Fri, 25 Mar 2022 18:47:14 +0000</pubDate>
       
       <guid>https://embiid.blog/post/WARP-does-not-work-after-submitting-an-invite-code/</guid>
-      <description>&lt;p&gt;After inputting the invite code and login in with Github, does &lt;a href=&#34;https://www.warp.dev/&#34;&gt;WARP&lt;/a&gt; load for a long time but not log in successfully?&lt;/p&gt;
+      <description>&lt;p&gt;Oops! We are unable to log you in. Don&amp;rsquo;t have an account? Click here to sign up.&lt;/p&gt;
 &lt;p&gt;Not respond on signing-in Github even though It shows a &amp;ldquo;You‘re logged in!&amp;rdquo; message?&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.warp.dev/&#34;&gt;WARP&lt;/a&gt; doesn&amp;rsquo;t follow system proxy?&lt;/p&gt;
 &lt;p&gt;Please follow the article to fix it.&lt;/p&gt;</description>
