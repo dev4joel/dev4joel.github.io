@@ -51,15 +51,15 @@ Let&rsquo;s follow the article to summarize the Login issues and fix it hand by 
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://embiid.blog/post/Can-not-sign-up-or-sign-in-Warp-with-Github/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2022-04-09T15:33:08+00:00" />
-<meta property="article:modified_time" content="2022-04-15T03:44:59+00:00" />
+<meta property="article:modified_time" content="2022-04-19T11:50:05+00:00" />
 
 <meta itemprop="name" content="Can Not Sign Up Or Sign In Warp With Github(Public Beta)">
 <meta itemprop="description" content="Can&rsquo;t sign up or sign in Warp with Github?
 Oops! We are unable to log you in. Don&rsquo;t have an account? Click here to sign up.
 Warp does not work properly when connected through a proxy?
 Let&rsquo;s follow the article to summarize the Login issues and fix it hand by hand."><meta itemprop="datePublished" content="2022-04-09T15:33:08+00:00" />
-<meta itemprop="dateModified" content="2022-04-15T03:44:59+00:00" />
-<meta itemprop="wordCount" content="948">
+<meta itemprop="dateModified" content="2022-04-19T11:50:05+00:00" />
+<meta itemprop="wordCount" content="977">
 <meta itemprop="keywords" content="Warp,Terminal,WARPDOTDEV,Internet,BugFixs," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Can Not Sign Up Or Sign In Warp With Github(Public Beta)"/>
 <meta name="twitter:description" content="Can&rsquo;t sign up or sign in Warp with Github?
@@ -159,7 +159,7 @@ if (!doNotTrack) {
       <div class="post-meta">
         <span class="post-time"> 2022-04-09 </span>
         
-          <span class="more-meta"> 948 words </span>
+          <span class="more-meta"> 977 words </span>
           <span class="more-meta"> 5 mins read </span>
         
       </div>
@@ -244,15 +244,20 @@ if (!doNotTrack) {
 <h3 id="how-to-fix-it-2">How to fix it?</h3>
 <p>Here’s a quick guide to how we go about <a href="https://www.warp.dev/">Warp</a> bug fixing.</p>
 <p>If you use a rule based proxy for Mac, please follow the quick guide.</p>
-<h4 id="method-one-copy-and-pasting-an-authentication-token-to-warp-terminal"><strong>Method One</strong>: Copy and Pasting an Authentication Token to Warp terminal</h4>
+<h4 id="method-one-copy-and-pasting-an-authentication-token-to-warp-terminal"><strong>Method One: Copy and Pasting an Authentication Token to Warp terminal</strong></h4>
 <p>Method source: <a href="https://docs.warp.dev/help/troubleshooting-login-issues">Troubleshooting Login Issues - Warp Documentation</a></p>
 <p>If this happens to you, use the link provided on the web logged-in page (<a href="https://app.warp.dev/logged_in">https://app.warp.dev/logged_in</a>) to copy the authentication token, then paste it into the <a href="https://warp.dev">Warp Terminal</a> app as shown below.</p>
 <p><img src="https://dev4joel.github.io/images/warp_login_issue/copy_and_pasting_an_authentication_token.png" alt=""></p>
-<h4 id="method-two-addhttp_proxyandhttps_proxyto-the-rc-file-and-then-run-warp-stable-file"><strong>Method Two</strong>: Add <code>HTTP_PROXY</code> and <code>HTTPS_PROXY</code> to the rc file and then run Warp .stable file</h4>
+<h4 id="method-two-addhttp_proxyandhttps_proxyto-the-rc-file-and-then-run-warp-stable-file"><strong>Method Two: Add <code>HTTP_PROXY</code> and <code>HTTPS_PROXY</code> to the rc file and then run Warp .stable file</strong></h4>
 <p>Method source: <a href="https://github.com/warpdotdev/Warp/issues/705#issuecomment-1089203127">Warp does not work properly when connected through a proxy · Issue #705 · warpdotdev/Warp · GitHub</a></p>
 <p>First, you should copy the command and config the proxy to your terminal.</p>
 <p>Not sure which proxy HTTP port used that You could change <code>7890</code> to your HTTP port.</p>
 <p><code>7890</code> means your proxy HTTP port.</p>
+<blockquote>
+<p><strong>NOTE:</strong></p>
+<p>If you use ClashX as your proxy, its default HTTP port maybe is <code>7890</code>.</p>
+<p>If you use ShadowsocksX-NG as your proxy, its default HTTP port maybe is <code>1087</code>.</p>
+</blockquote>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -277,7 +282,7 @@ if (!doNotTrack) {
 </div>
 </div><p>Alright, you did it.</p>
 <p><img src="https://dev4joel.github.io/images/warp_login_issue/export_proxy.png" alt=""></p>
-<h4 id="method-three-check-this-article-out-warp-does-not-work-after-submitting-an-invite-codehttpsembiidblogpostwarp-does-not-work-after-submitting-an-invite-code"><strong>Method Three:</strong> Check this article out: <a href="https://embiid.blog/post/WARP-does-not-work-after-submitting-an-invite-code/">WARP does not work after submitting an invite code</a></h4>
+<h4 id="method-three-check-this-article-out-warp-does-not-work-after-submitting-an-invite-codehttpsembiidblogpostwarp-does-not-work-after-submitting-an-invite-code"><strong>Method Three: Check this article out: <a href="https://embiid.blog/post/WARP-does-not-work-after-submitting-an-invite-code/">WARP does not work after submitting an invite code</a></strong></h4>
 <h2 id="case-four-authorising-with-github-fails--authentication--firebase">Case four: Authorising with GitHub fails / authentication / firebase</h2>
 <p>It maybe is the Case four If you have the same issue:</p>
 <p>Clicking &lsquo;Sign Up with GitHub&rsquo; opens a blank pop-up that disappears after a few seconds.</p>
@@ -308,7 +313,7 @@ if (!doNotTrack) {
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
     <span class="item-content">
-        2022-04-15
+        2022-04-19
         
     </span>
   </p>
