@@ -2,6 +2,69 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://embiid.blog/</loc>
+    <lastmod>2022-04-25T15:15:22+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://embiid.blog/tags/FAQ/</loc>
+    <lastmod>2022-04-25T15:15:22+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://embiid.blog/tags/Internet/</loc>
+    <lastmod>2022-04-25T15:15:22+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://embiid.blog/post/</loc>
+    <lastmod>2022-04-25T15:15:22+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://embiid.blog/tags/</loc>
+    <lastmod>2022-04-25T15:15:22+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://embiid.blog/tags/Terminal/</loc>
+    <lastmod>2022-04-25T15:15:22+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://embiid.blog/post/Top-5-Why-Of-FAQ-From-Warp-Terminal/</loc>
+    <lastmod>2022-04-25T15:15:22+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://embiid.blog/tags/Warp/</loc>
+    <lastmod>2022-04-25T15:15:22+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://embiid.blog/tags/WARPDOTDEV/</loc>
+    <lastmod>2022-04-25T15:15:22+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://embiid.blog/tags/BugFixs/</loc>
     <lastmod>2022-04-19T11:50:05+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -10,55 +73,6 @@
   
   <url>
     <loc>https://embiid.blog/post/Can-not-sign-up-or-sign-in-Warp-with-Github/</loc>
-    <lastmod>2022-04-19T11:50:05+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://embiid.blog/</loc>
-    <lastmod>2022-04-19T11:50:05+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://embiid.blog/tags/Internet/</loc>
-    <lastmod>2022-04-19T11:50:05+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://embiid.blog/post/</loc>
-    <lastmod>2022-04-19T11:50:05+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://embiid.blog/tags/</loc>
-    <lastmod>2022-04-19T11:50:05+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://embiid.blog/tags/Terminal/</loc>
-    <lastmod>2022-04-19T11:50:05+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://embiid.blog/tags/Warp/</loc>
-    <lastmod>2022-04-19T11:50:05+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://embiid.blog/tags/WARPDOTDEV/</loc>
     <lastmod>2022-04-19T11:50:05+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

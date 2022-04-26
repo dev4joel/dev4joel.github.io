@@ -6,20 +6,20 @@
     <description>Recent content in Tags on Embiid&#39;s BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Apr 2022 15:33:08 +0000</lastBuildDate><atom:link href="https://embiid.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Apr 2022 15:15:22 +0000</lastBuildDate><atom:link href="https://embiid.blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>BugFixs</title>
-      <link>https://embiid.blog/tags/BugFixs/</link>
-      <pubDate>Sat, 09 Apr 2022 15:33:08 +0000</pubDate>
+      <title>FAQ</title>
+      <link>https://embiid.blog/tags/FAQ/</link>
+      <pubDate>Mon, 25 Apr 2022 15:15:22 +0000</pubDate>
       
-      <guid>https://embiid.blog/tags/BugFixs/</guid>
+      <guid>https://embiid.blog/tags/FAQ/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Internet</title>
       <link>https://embiid.blog/tags/Internet/</link>
-      <pubDate>Sat, 09 Apr 2022 15:33:08 +0000</pubDate>
+      <pubDate>Mon, 25 Apr 2022 15:15:22 +0000</pubDate>
       
       <guid>https://embiid.blog/tags/Internet/</guid>
       <description></description>
@@ -28,7 +28,7 @@
     <item>
       <title>Terminal</title>
       <link>https://embiid.blog/tags/Terminal/</link>
-      <pubDate>Sat, 09 Apr 2022 15:33:08 +0000</pubDate>
+      <pubDate>Mon, 25 Apr 2022 15:15:22 +0000</pubDate>
       
       <guid>https://embiid.blog/tags/Terminal/</guid>
       <description></description>
@@ -37,7 +37,7 @@
     <item>
       <title>Warp</title>
       <link>https://embiid.blog/tags/Warp/</link>
-      <pubDate>Sat, 09 Apr 2022 15:33:08 +0000</pubDate>
+      <pubDate>Mon, 25 Apr 2022 15:15:22 +0000</pubDate>
       
       <guid>https://embiid.blog/tags/Warp/</guid>
       <description></description>
@@ -46,9 +46,18 @@
     <item>
       <title>WARPDOTDEV</title>
       <link>https://embiid.blog/tags/WARPDOTDEV/</link>
-      <pubDate>Sat, 09 Apr 2022 15:33:08 +0000</pubDate>
+      <pubDate>Mon, 25 Apr 2022 15:15:22 +0000</pubDate>
       
       <guid>https://embiid.blog/tags/WARPDOTDEV/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BugFixs</title>
+      <link>https://embiid.blog/tags/BugFixs/</link>
+      <pubDate>Sat, 09 Apr 2022 15:33:08 +0000</pubDate>
+      
+      <guid>https://embiid.blog/tags/BugFixs/</guid>
       <description></description>
     </item>
     
