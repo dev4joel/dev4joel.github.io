@@ -6,7 +6,22 @@
     <description>Recent content in Terminal on Embiid&#39;s BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 May 2022 16:28:38 +0000</lastBuildDate><atom:link href="https://embiid.blog/tags/Terminal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Jun 2023 17:15:57 +0800</lastBuildDate><atom:link href="https://embiid.blog/tags/Terminal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Warp AI: A Conversational AI for Terminal Developers</title>
+      <link>https://embiid.blog/post/Warp-AI-A-Conversational-AI-for-Terminal-Developers/</link>
+      <pubDate>Fri, 09 Jun 2023 17:15:57 +0800</pubDate>
+      
+      <guid>https://embiid.blog/post/Warp-AI-A-Conversational-AI-for-Terminal-Developers/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Need increased productivity?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Warp AI can help you save time by automating tasks such as troubleshooting errors and generating code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Need improved accuracy?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Warp AI can help you avoid errors by providing you with accurate information and suggestions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Need reduced stress?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Warp AI can help you reduce stress by making it easier to complete tasks and learn new things.&lt;/p&gt;
+&lt;p&gt;If you are looking for a way to improve your productivity, accuracy, and stress levels, I encourage you to try out Warp AI.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Top 5 What of FAQ From Warp Terminal(Public Beta)</title>
       <link>https://embiid.blog/post/Top-5-What-Of-FAQ-From-Warp-Terminal/</link>
@@ -34,18 +49,6 @@
     </item>
     
     <item>
-      <title>Can Not Sign Up Or Sign In Warp With Github(Public Beta)</title>
-      <link>https://embiid.blog/post/Can-not-sign-up-or-sign-in-Warp-with-Github/</link>
-      <pubDate>Sat, 09 Apr 2022 15:33:08 +0000</pubDate>
-      
-      <guid>https://embiid.blog/post/Can-not-sign-up-or-sign-in-Warp-with-Github/</guid>
-      <description>&lt;p&gt;Can&amp;rsquo;t sign up or sign in &lt;a href=&#34;https://www.warp.dev/&#34;&gt;Warp&lt;/a&gt; with Github?&lt;/p&gt;
-&lt;p&gt;Oops! We are unable to log you in. Don&amp;rsquo;t have an account? Click here to sign up.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.warp.dev/&#34;&gt;Warp&lt;/a&gt; does not work properly when connected through a proxy?&lt;/p&gt;
-&lt;p&gt;Let&amp;rsquo;s follow the article to summarize the Login issues and fix it hand by hand.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>WARP does not work after submitting an invite code</title>
       <link>https://embiid.blog/post/WARP-does-not-work-after-submitting-an-invite-code/</link>
       <pubDate>Fri, 25 Mar 2022 18:47:14 +0000</pubDate>
@@ -67,6 +70,18 @@
 &lt;p&gt;If you are interested in the Warp terminal, you should need an invite code.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://app.warp.dev/download/r/1ZDJ11&#34; title=&#34;https://app.warp.dev/download/r/1ZDJ11&#34;&gt;Click here to download it.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Read more if the invite codes don&amp;rsquo;t work.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Can Not Sign Up Or Sign In Warp With Github(Public Beta)</title>
+      <link>https://embiid.blog/post/Can-not-sign-up-or-sign-in-Warp-with-Github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://embiid.blog/post/Can-not-sign-up-or-sign-in-Warp-with-Github/</guid>
+      <description>&lt;p&gt;Can&amp;rsquo;t sign up or sign in &lt;a href=&#34;https://www.warp.dev/&#34;&gt;Warp&lt;/a&gt; with Github?&lt;/p&gt;
+&lt;p&gt;Oops! We are unable to log you in. Don&amp;rsquo;t have an account? Click here to sign up.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.warp.dev/&#34;&gt;Warp&lt;/a&gt; does not work properly when connected through a proxy?&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s follow the article to summarize the Login issues and fix it hand by hand.&lt;/p&gt;</description>
     </item>
     
   </channel>

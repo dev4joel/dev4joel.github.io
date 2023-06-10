@@ -6,19 +6,7 @@
     <description>Recent content in BugFixs on Embiid&#39;s BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Apr 2022 15:33:08 +0000</lastBuildDate><atom:link href="https://embiid.blog/tags/BugFixs/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Can Not Sign Up Or Sign In Warp With Github(Public Beta)</title>
-      <link>https://embiid.blog/post/Can-not-sign-up-or-sign-in-Warp-with-Github/</link>
-      <pubDate>Sat, 09 Apr 2022 15:33:08 +0000</pubDate>
-      
-      <guid>https://embiid.blog/post/Can-not-sign-up-or-sign-in-Warp-with-Github/</guid>
-      <description>&lt;p&gt;Can&amp;rsquo;t sign up or sign in &lt;a href=&#34;https://www.warp.dev/&#34;&gt;Warp&lt;/a&gt; with Github?&lt;/p&gt;
-&lt;p&gt;Oops! We are unable to log you in. Don&amp;rsquo;t have an account? Click here to sign up.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.warp.dev/&#34;&gt;Warp&lt;/a&gt; does not work properly when connected through a proxy?&lt;/p&gt;
-&lt;p&gt;Let&amp;rsquo;s follow the article to summarize the Login issues and fix it hand by hand.&lt;/p&gt;</description>
-    </item>
-    
+    <lastBuildDate>Fri, 25 Mar 2022 18:47:14 +0000</lastBuildDate><atom:link href="https://embiid.blog/tags/BugFixs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WARP does not work after submitting an invite code</title>
       <link>https://embiid.blog/post/WARP-does-not-work-after-submitting-an-invite-code/</link>
@@ -29,6 +17,18 @@
 &lt;p&gt;Not respond on signing-in Github even though It shows a &amp;ldquo;You‘re logged in!&amp;rdquo; message?&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.warp.dev/&#34;&gt;WARP&lt;/a&gt; doesn&amp;rsquo;t follow system proxy?&lt;/p&gt;
 &lt;p&gt;Please follow the article to fix it.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Can Not Sign Up Or Sign In Warp With Github(Public Beta)</title>
+      <link>https://embiid.blog/post/Can-not-sign-up-or-sign-in-Warp-with-Github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://embiid.blog/post/Can-not-sign-up-or-sign-in-Warp-with-Github/</guid>
+      <description>&lt;p&gt;Can&amp;rsquo;t sign up or sign in &lt;a href=&#34;https://www.warp.dev/&#34;&gt;Warp&lt;/a&gt; with Github?&lt;/p&gt;
+&lt;p&gt;Oops! We are unable to log you in. Don&amp;rsquo;t have an account? Click here to sign up.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.warp.dev/&#34;&gt;Warp&lt;/a&gt; does not work properly when connected through a proxy?&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s follow the article to summarize the Login issues and fix it hand by hand.&lt;/p&gt;</description>
     </item>
     
   </channel>
