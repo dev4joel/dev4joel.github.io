@@ -100,6 +100,13 @@
   </url>
   
   <url>
+    <loc>https://embiid.blog/post/Can-not-sign-up-or-sign-in-Warp-with-Github/</loc>
+    <lastmod>2022-04-19T11:50:05+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://embiid.blog/post/WARP-does-not-work-after-submitting-an-invite-code/</loc>
     <lastmod>2022-04-19T11:50:05+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -135,12 +142,6 @@
   
   <url>
     <loc>https://embiid.blog/pages/terms-of-use/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://embiid.blog/post/Can-not-sign-up-or-sign-in-Warp-with-Github/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
