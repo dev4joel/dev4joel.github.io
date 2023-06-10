@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Embiid&#39;s BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Jun 2023 17:15:57 +0800</lastBuildDate><atom:link href="https://embiid.blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Jun 2023 19:42:03 +0800</lastBuildDate><atom:link href="https://embiid.blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing Warp: Revolutionizing the CLI Experience for Developers</title>
+      <link>https://embiid.blog/post/Introducing-Warp-Revolutionizing-the-CLI-Experience-for-Developers/</link>
+      <pubDate>Sat, 10 Jun 2023 19:42:03 +0800</pubDate>
+      
+      <guid>https://embiid.blog/post/Introducing-Warp-Revolutionizing-the-CLI-Experience-for-Developers/</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;re looking for a modern, powerful, and collaborative terminal emulator, I encourage you to check out Warp.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Warp AI: A Conversational AI for Terminal Developers</title>
       <link>https://embiid.blog/post/Warp-AI-A-Conversational-AI-for-Terminal-Developers/</link>
