@@ -8,12 +8,13 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 10 Jun 2023 21:06:21 +0800</lastBuildDate><atom:link href="https://embiid.blog/tags/Internet/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Product Principles Redefining the CLI Experience for Developers</title>
+      <title>Product Principles: Redefining the CLI Experience for Developers</title>
       <link>https://embiid.blog/post/Product-Principles-Redefining-the-CLI-Experience-for-Developers/</link>
       <pubDate>Sat, 10 Jun 2023 21:06:21 +0800</pubDate>
       
       <guid>https://embiid.blog/post/Product-Principles-Redefining-the-CLI-Experience-for-Developers/</guid>
-      <description>&lt;p&gt;Warp is an innovative terminal emulator that brings a fresh perspective to the command line interface (CLI), making it more approachable and user-friendly for developers of all levels. Powered by cutting-edge technologies like Rust, WebGL, and the cloud, Warp offers a host of features that go beyond traditional terminal emulators, transforming your development workflow.&lt;/p&gt;</description>
+      <description>&lt;p&gt;In the world of software development, the command line interface (CLI) is a powerful tool that empowers developers to automate tasks, manage systems, and build incredible software.&lt;/p&gt;
+&lt;p&gt;However, the traditional CLI experience has often been perceived as daunting and inaccessible for newcomers. Enter Warp, a groundbreaking terminal emulator that revolutionizes the way developers interact with the CLI.&lt;/p&gt;</description>
     </item>
     
     <item>
