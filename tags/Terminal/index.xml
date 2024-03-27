@@ -6,7 +6,17 @@
     <description>Recent content in Terminal on Embiid&#39;s BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Jun 2023 21:06:21 +0800</lastBuildDate><atom:link href="https://embiid.blog/tags/Terminal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Mar 2024 17:59:06 +0800</lastBuildDate><atom:link href="https://embiid.blog/tags/Terminal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Warp: The Modern Terminal: Intro &amp; Feature Summary (2024)</title>
+      <link>https://embiid.blog/post/Warp-The-Modern-Terminal-Intro-Feature-Summary/</link>
+      <pubDate>Wed, 27 Mar 2024 17:59:06 +0800</pubDate>
+      
+      <guid>https://embiid.blog/post/Warp-The-Modern-Terminal-Intro-Feature-Summary/</guid>
+      <description>&lt;p&gt;Discover a revolutionary tool that&amp;rsquo;s transforming the way developers interact with the command line. Warp offers intelligent command completions, seamless collaboration features, and AI-powered assistance to streamline your workflow. With centralized command management and extensive customization options, Warp empowers teams to boost productivity and achieve more.&lt;/p&gt;
+&lt;p&gt;Read more to unlock the full potential of your command-line experience with Warp.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Product Principles: Redefining the CLI Experience for Developers</title>
       <link>https://embiid.blog/post/Product-Principles-Redefining-the-CLI-Experience-for-Developers/</link>
