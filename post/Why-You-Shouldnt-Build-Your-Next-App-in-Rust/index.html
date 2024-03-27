@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Why You Shouldn’t Build Your Next App in Rust - Embiid&#39;s BLOG</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Embiid" /><meta name="description" content="Rust is a powerful programming language known for its speed, reliability, and memory safety.
+It&amp;rsquo;s the darling of developers building critical infrastructure like operating systems and embedded systems. But can Rust also be used to build user interfaces (UIs)?
+" /><meta name="keywords" content="Tech”, “Internet, Warp, WarpTerminal" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.96.0 with theme even" />
+
+
+<link rel="canonical" href="https://embiid.blog/post/Why-You-Shouldnt-Build-Your-Next-App-in-Rust/" />
+<link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png">
+<link rel="manifest" href="../../manifest.json">
+<link rel="mask-icon" href="../../safari-pinned-tab.svg" color="#5bbad5">
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5769040103573206" crossorigin="anonymous"></script>
+
+
+
+<link href="../../sass/main.min.a3c00f725b6319f466a46c15879e4b1096fce5818439f19f7eda8ac70e74c90e.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="Why You Shouldn’t Build Your Next App in Rust" />
+<meta property="og:description" content="Rust is a powerful programming language known for its speed, reliability, and memory safety.
+It&rsquo;s the darling of developers building critical infrastructure like operating systems and embedded systems. But can Rust also be used to build user interfaces (UIs)?" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://embiid.blog/post/Why-You-Shouldnt-Build-Your-Next-App-in-Rust/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2024-03-27T20:46:05+08:00" />
+<meta property="article:modified_time" content="2024-03-27T20:46:05+08:00" />
+
+<meta itemprop="name" content="Why You Shouldn’t Build Your Next App in Rust">
+<meta itemprop="description" content="Rust is a powerful programming language known for its speed, reliability, and memory safety.
+It&rsquo;s the darling of developers building critical infrastructure like operating systems and embedded systems. But can Rust also be used to build user interfaces (UIs)?"><meta itemprop="datePublished" content="2024-03-27T20:46:05+08:00" />
+<meta itemprop="dateModified" content="2024-03-27T20:46:05+08:00" />
+<meta itemprop="wordCount" content="582">
+<meta itemprop="keywords" content="Warp,Terminal,WARPDOTDEV,Internet,Rust," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Why You Shouldn’t Build Your Next App in Rust"/>
+<meta name="twitter:description" content="Rust is a powerful programming language known for its speed, reliability, and memory safety.
+It&rsquo;s the darling of developers building critical infrastructure like operating systems and embedded systems. But can Rust also be used to build user interfaces (UIs)?"/>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-222789310-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-222789310-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="../../" class="logo">Embiid&#39;s BLOG</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="../../">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="../../post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="../../tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="../../about/">
+        <li class="mobile-menu-item">About</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="../../" class="logo">Embiid&#39;s BLOG</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="../../">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="../../post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="../../tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="../../about/">About</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Why You Shouldn’t Build Your Next App in Rust</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2024-03-27 </span>
+        
+          <span class="more-meta"> 582 words </span>
+          <span class="more-meta"> 3 mins read </span>
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#taming-the-ui-beast-how-rust-is-conquering-user-interfaces">Taming the UI Beast: How Rust is Conquering User Interfaces</a></li>
+        <li><a href="#what-makes-ui-programming-usually-works">What Makes UI Programming (Usually) Works</a></li>
+        <li><a href="#how-rust-makes-this-hard">How Rust Makes This Hard</a></li>
+        <li><a href="#attempting-ui-design-with-rust">Attempting UI Design with Rust</a></li>
+        <li><a href="#how-we-are-tackling-rust-with-ui">How We Are Tackling Rust with UI</a>
+          <ul>
+            <li><a href="#elm-architecture">ELM Architecture</a></li>
+            <li><a href="#entity-component-structure">Entity Component Structure</a></li>
+          </ul>
+        </li>
+        <li><a href="#how-we-are-building-ui">How We Are Building UI</a></li>
+        <li><a href="#conclusion">Conclusion</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <p>Rust is a powerful programming language known for its speed, reliability, and memory safety.</p>
+<p>It&rsquo;s the darling of developers building critical infrastructure like operating systems and embedded systems. But can Rust also be used to build user interfaces (UIs)?</p>
+<h2 id="taming-the-ui-beast-how-rust-is-conquering-user-interfaces">Taming the UI Beast: How Rust is Conquering User Interfaces</h2>
+<p>Rust, with its robust memory management and blazing-fast performance, has become a darling of developers building critical infrastructure like operating systems and embedded systems. But can this champion of system programming also conquer the realm of user interfaces (UI)?</p>
+<p>While Rust shines in core functionalities, its unique approach to programming presents challenges for UI development. Unlike traditional languages with object-oriented inheritance, Rust&rsquo;s trait system, while powerful, lacks data storage capabilities.</p>
+<p>This makes it difficult to organize UI components in a neat hierarchical structure, a hallmark of efficient UI frameworks like React in JavaScript. Additionally, Rust&rsquo;s focus on immutability can complicate event handling and state management, which are crucial aspects of UI development.</p>
+<h2 id="what-makes-ui-programming-usually-works">What Makes UI Programming (Usually) Works</h2>
+<p>In traditional UI programming, frameworks like React in JavaScript utilize hierarchical component structures to manage user interfaces efficiently. Components inherit properties and functionalities from base classes, enabling easy navigation through the UI tree and streamlined event handling. This hierarchical approach promotes code reusability and maintainability, making UI development more efficient.</p>
+<h2 id="how-rust-makes-this-hard">How Rust Makes This Hard</h2>
+<p>Despite its strengths, Rust presents challenges for UI development due to its unconventional approach to programming. Traits, while powerful for defining functionality, lack built-in storage for UI state, making it difficult to organize components in a traditional hierarchical manner. Furthermore, Rust&rsquo;s focus on immutability adds another layer of complexity to event handling and state management, which often rely on mutable data in UI frameworks.</p>
+<h2 id="attempting-ui-design-with-rust">Attempting UI Design with Rust</h2>
+<p>Efforts to build UIs in Rust often encounter hurdles due to these language-specific challenges. Traditional approaches used in other languages do not seamlessly translate to Rust, leading to frustration and inefficiencies in UI development.</p>
+<h2 id="how-we-are-tackling-rust-with-ui">How We Are Tackling Rust with UI</h2>
+<p>To address these challenges, alternative architectures like the ELM architecture and entity-component structure have emerged in the Rust community. These approaches offer different paradigms for UI development, leveraging Rust&rsquo;s strengths while circumventing its limitations.</p>
+<h3 id="elm-architecture">ELM Architecture</h3>
+<p>The ELM architecture, with its model-view-update pattern, provides a functional and immutable approach to UI programming, aligning well with Rust&rsquo;s principles. By separating concerns and leveraging Rust&rsquo;s enums for pattern matching, the ELM architecture offers a compelling solution for building UIs in Rust.</p>
+<h3 id="entity-component-structure">Entity Component Structure</h3>
+<p>Another approach gaining traction is the entity-component system, which decouples UI components from their state and behavior. This architecture simplifies UI development by centralizing state management and enabling efficient rendering.Components are treated as entities, and their behavior is defined by attaching reusable components.</p>
+<h2 id="how-we-are-building-ui">How We Are Building UI</h2>
+<p>In our endeavors at tackling UI development in Rust, we have experimented with various approaches, including the ELM architecture and entity-component structure. By leveraging Rust&rsquo;s unique features and exploring alternative paradigms, we aim to create robust and efficient UI experiences.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>In summary, Rust&rsquo;s strengths in memory safety, thread safety, and performance are undeniable, yet its unconventional features can pose challenges for GUI development, especially when compared to languages with more traditional object-oriented programming features.</p>
+<p>However, with thoughtful design and by leveraging Rust&rsquo;s unique capabilities, it is entirely feasible to develop stable and efficient GUI applications in Rust. With dedication and innovation, Rust developers can overcome the hurdles and unlock the full potential of this powerful language for GUI development.</p>
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">Embiid</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">
+        2024-03-27
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="../../tags/Warp/">Warp</a>
+          <a href="../../tags/Terminal/">Terminal</a>
+          <a href="../../tags/WARPDOTDEV/">WARPDOTDEV</a>
+          <a href="../../tags/Internet/">Internet</a>
+          <a href="../../tags/Rust/">Rust</a>
+          </div>
+      <nav class="post-nav">
+        
+        <a class="next" href="../../post/Warp-The-Modern-Terminal-Intro-Feature-Summary/">
+            <span class="next-text nav-default">Warp: The Modern Terminal: Intro &amp; Feature Summary (2024)</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        <div id="gitalk-container"></div>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      var gitalk = new Gitalk({
+        id: '2024-03-27 20:46:05 \u002b0800 CST',
+        title: 'Why You Shouldn’t Build Your Next App in Rust',
+        clientID: 'c048b2683e599e4c3f7c',
+        clientSecret: '7fbd7eacd3f184fc63b790acc8f64cb94480c17f',
+        repo: 'dev4joel.github.io',
+        owner: 'dev4joel',
+        admin: ['dev4joel'],
+        body: decodeURI(location.href)
+      });
+      gitalk.render('gitalk-container');
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://github.com/gitalk/gitalk">comments powered by gitalk.</a></noscript>
+
+  
+
+  
+
+  <div style="display: flex; justify-content: center; align-items: center;">
+    <a href="https://www.buymeacoffee.com/embiddBlog"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=embiddBlog&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
+  </div>
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="https://twitter.com/embiid_blog" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://github.com/dev4joel/" class="iconfont icon-github" title="github"></a>
+  <a href="https://embiid.blog/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2022 - 
+    2024<span class="heart"><i class="iconfont icon-heart"></i></span><span>Embiid</span>
+  </span>
+  <span class="static">
+    <a href="../../pages/privacy-policy">Privacy</a> |
+    <a href="../../pages/terms-of-use">Terms of Use</a>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="../../js/main.min.64437849d125a2d603b3e71d6de5225d641a32d17168a58106e0b61852079683.js"></script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-222789310-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+</body>
+</html>

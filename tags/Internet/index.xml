@@ -6,7 +6,17 @@
     <description>Recent content in Internet on Embiid&#39;s BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Mar 2024 17:59:06 +0800</lastBuildDate><atom:link href="https://embiid.blog/tags/Internet/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Mar 2024 20:46:05 +0800</lastBuildDate><atom:link href="https://embiid.blog/tags/Internet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why You Shouldn’t Build Your Next App in Rust</title>
+      <link>https://embiid.blog/post/Why-You-Shouldnt-Build-Your-Next-App-in-Rust/</link>
+      <pubDate>Wed, 27 Mar 2024 20:46:05 +0800</pubDate>
+      
+      <guid>https://embiid.blog/post/Why-You-Shouldnt-Build-Your-Next-App-in-Rust/</guid>
+      <description>&lt;p&gt;Rust is a powerful programming language known for its speed, reliability, and memory safety.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s the darling of developers building critical infrastructure like operating systems and embedded systems. But can Rust also be used to build user interfaces (UIs)?&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Warp: The Modern Terminal: Intro &amp; Feature Summary (2024)</title>
       <link>https://embiid.blog/post/Warp-The-Modern-Terminal-Intro-Feature-Summary/</link>
