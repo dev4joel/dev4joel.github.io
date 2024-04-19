@@ -6,7 +6,17 @@
     <description>Recent content in Terminal on Embiid&#39;s BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Mar 2024 20:46:05 +0800</lastBuildDate><atom:link href="https://embiid.blog/tags/Terminal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Apr 2024 12:50:09 +0800</lastBuildDate><atom:link href="https://embiid.blog/tags/Terminal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Revolutionizing the Command Line: Introducing Warp</title>
+      <link>https://embiid.blog/post/Revolutionizing-the-Command-Line-Introducing-Warp/</link>
+      <pubDate>Fri, 19 Apr 2024 12:50:09 +0800</pubDate>
+      
+      <guid>https://embiid.blog/post/Revolutionizing-the-Command-Line-Introducing-Warp/</guid>
+      <description>&lt;p&gt;Explore how Warp is transforming the command line with AI integration, collaborative tools, and intuitive features.
+Download now to experience the future of development.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Why You Shouldn’t Build Your Next App in Rust</title>
       <link>https://embiid.blog/post/Why-You-Shouldnt-Build-Your-Next-App-in-Rust/</link>
