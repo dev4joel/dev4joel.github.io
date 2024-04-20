@@ -2,6 +2,83 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://embiid.blog/</loc>
+    <lastmod>2024-04-20T19:02:58+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://embiid.blog/tags/Integrate/</loc>
+    <lastmod>2024-04-20T19:02:58+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://embiid.blog/tags/Internet/</loc>
+    <lastmod>2024-04-20T19:02:58+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://embiid.blog/post/</loc>
+    <lastmod>2024-04-20T19:02:58+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://embiid.blog/tags/powerlevel10k/</loc>
+    <lastmod>2024-04-20T19:02:58+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://embiid.blog/tags/</loc>
+    <lastmod>2024-04-20T19:02:58+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://embiid.blog/tags/Terminal/</loc>
+    <lastmod>2024-04-20T19:02:58+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://embiid.blog/post/Transform-Your-Terminal-with-Powerlevel10k-on-Warp/</loc>
+    <lastmod>2024-04-20T19:02:58+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://embiid.blog/tags/VsCode/</loc>
+    <lastmod>2024-04-20T19:02:58+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://embiid.blog/tags/Warp/</loc>
+    <lastmod>2024-04-20T19:02:58+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://embiid.blog/tags/WARPDOTDEV/</loc>
+    <lastmod>2024-04-20T19:02:58+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://embiid.blog/tags/CommandLine/</loc>
     <lastmod>2024-04-20T18:53:16+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -16,42 +93,7 @@
   </url>
   
   <url>
-    <loc>https://embiid.blog/</loc>
-    <lastmod>2024-04-20T18:53:16+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://embiid.blog/tags/Internet/</loc>
-    <lastmod>2024-04-20T18:53:16+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://embiid.blog/post/</loc>
-    <lastmod>2024-04-20T18:53:16+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://embiid.blog/tags/Productivity/</loc>
-    <lastmod>2024-04-20T18:53:16+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://embiid.blog/tags/</loc>
-    <lastmod>2024-04-20T18:53:16+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://embiid.blog/tags/Terminal/</loc>
     <lastmod>2024-04-20T18:53:16+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -65,20 +107,6 @@
   </url>
   
   <url>
-    <loc>https://embiid.blog/tags/VsCode/</loc>
-    <lastmod>2024-04-20T18:53:16+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://embiid.blog/tags/Warp/</loc>
-    <lastmod>2024-04-20T18:53:16+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://embiid.blog/tags/WarpAI/</loc>
     <lastmod>2024-04-20T18:53:16+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -86,21 +114,7 @@
   </url>
   
   <url>
-    <loc>https://embiid.blog/tags/WARPDOTDEV/</loc>
-    <lastmod>2024-04-20T18:53:16+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://embiid.blog/post/How-To-Open-Warp-From-VSCode/</loc>
-    <lastmod>2024-04-19T20:08:36+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://embiid.blog/tags/Integrate/</loc>
     <lastmod>2024-04-19T20:08:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
