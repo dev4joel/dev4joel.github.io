@@ -6,7 +6,16 @@
     <description>Recent content in Internet on Embiid&#39;s BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Apr 2024 20:08:36 +0800</lastBuildDate><atom:link href="https://embiid.blog/tags/Internet/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Apr 2024 18:53:16 +0800</lastBuildDate><atom:link href="https://embiid.blog/tags/Internet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Discover the Power of Command Line Tools for Developer Productivity</title>
+      <link>https://embiid.blog/post/Discover-the-Power-of-Command-Line-Tools-for-Developer-Productivity/</link>
+      <pubDate>Sat, 20 Apr 2024 18:53:16 +0800</pubDate>
+      
+      <guid>https://embiid.blog/post/Discover-the-Power-of-Command-Line-Tools-for-Developer-Productivity/</guid>
+      <description>&lt;p&gt;Discover time-saving command line tools like NeoVim, Lazy Docker, The Fuck, fzf, and HTTPie to streamline your development workflow and boost productivity.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>How to Open Warp From VSCode</title>
       <link>https://embiid.blog/post/How-To-Open-Warp-From-VSCode/</link>
